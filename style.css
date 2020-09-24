@@ -1,0 +1,462 @@
+body {
+    background-color: azure;
+  }
+  
+  h1 {
+    color: rgb(67, 60, 134);
+    text-align: center;
+    font-family: "Verdana", cursive, sans-serif;
+
+  }
+  h3
+  {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  h2
+  {
+    font-family: "Verdana", cursive, sans-serif;
+  }
+  h4
+  {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  
+  p {
+    font-family: "Verdana", cursive, sans-serif;
+    font-size: 15px;
+  }
+  
+  p3 {
+    font-family: "Verdana", cursive, sans-serif;
+    font-size: 13px;
+  }
+  
+
+
+
+
+  /* Style all font awesome icons */
+
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.9;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    margin-left: 20px;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    margin-left: 5px;
+    color: white;
+  }
+
+  /* Linkedin */
+  .fa-linkedin {
+    background: #3B5998;
+    margin-left: 5px;
+    color: white;
+    margin-right: 100px;
+  }
+/* End of Style all font awesome icons */
+
+
+
+
+
+  
+  /*Navigation bar css code*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+* {
+  margin: 0px;
+  padding-bottom: 0px;
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.nav {
+  background: #000;
+  width: 100%;
+  height: 55px;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  transition: height .5s ease-in-out;
+  padding-bottom: 70px;
+  z-index: 10;
+}
+.nav-brand, .nav-link, .nav-collapse {
+  display: inline-block;
+}
+.nav-brand, .nav-link {
+  color: #fff;
+  text-decoration: none;
+  line-height: 65px;
+  padding: 0 1rem;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.nav-brand {
+  font-size: 1.85rem;
+  padding-left: 100px;
+}
+.nav-link {
+  font-size: 1rem;
+}
+.nav-collapse {
+  float: right;
+}
+.toggler {
+  float: right;
+  width: 40px;
+  height: 18px;
+  margin: 18.5px 0;
+  background: none;
+  border: none;
+  outline: none;
+  display: none;
+  opacity: 0.8;
+}
+.toggler span {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  position: relative;
+  transition: .25s ease-in-out;
+}
+.toggler span:nth-child(1) {
+  top: -7.5px;
+}
+.toggler span:nth-child(2) {
+  top: 0;
+}
+.toggler span:nth-child(3) {
+  top: 7.5px;
+}
+
+.nav-brand:hover, .nav-link:hover, .toggler:hover, 
+.nav-brand:focus, .nav-link:focus, .toggler:focus {
+  opacity: 1;
+}
+
+.nav.open .toggler span:nth-child(1) {
+  transform: translateY(8.5px) rotate(45deg);
+}
+.nav.open .toggler span:nth-child(2) {
+  transform: translateX(-100%);
+  width: 0;
+  opacity: 0;
+}
+.nav.open .toggler span:nth-child(3) {
+  transform: translateY(-8.5px) rotate(-45deg);
+}
+.nav.open {
+  height: 100vh;
+}
+
+@media (max-width: 767px) {
+  .nav-collapse, .nav-link {
+    float: none;
+    display: block;
+  }
+  .nav-link {
+    text-align: center;
+  }
+  .toggler {
+    display: block;
+  }
+}
+
+/* End of Navigation bar css code*/
+
+
+
+
+/*Background video*/
+
+.overlay
+{
+  position: absolute;
+  top: 110px;
+  bottom:0 ;
+  left: 0;
+  right: 870px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 1;
+}
+
+
+.overlay11
+{
+  position: absolute;
+  top: 1600px;
+  bottom:0 ;
+  left: 850px;
+  right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0.8;
+}
+
+.overlay111
+{
+  position: absolute;
+  top: 4220px;
+  bottom:0 ;
+  left: 50px;
+  right: 650px;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 1;
+  
+}
+
+
+.overlay1111
+{
+  position: absolute;
+  top:30%;
+  bottom: 340;
+  left: 5%;
+  right:50% ;
+  display: flex;
+  align-items: left;
+  justify-content:left;
+  flex-direction: column;
+  opacity: 1;
+}
+
+
+.overlay11111
+{
+  position: absolute;
+  top:940px;
+  bottom: 340;
+  left:10%;
+  right:10% ;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  color: 0;
+  opacity: 0.8;
+}
+
+
+
+
+/* For rows and columns*/
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    
+    
+  }
+
+
+
+  /* For round images*/
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+    height: 140;
+  }
+
+
+
+
+
+/*Chat box*/
+
+
+
+
+
+/*add full-width input fields*/
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+/* set a style for all buttons*/
+button {
+    background-color: cadetblue;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 10%;
+    
+}
+/*set styles for the cancel button*/
+.cancelbtn {
+    padding: 14px 20px;
+    background-color:rgb(153, 183, 184);
+}
+/*float cancel and signup buttons and add an equal width*/
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 50%
+}
+/*add padding to container elements*/
+.container {
+    padding: 16px;
+}
+/*define the modal’s background*/
+ 
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+/*define the modal-content background*/
+ 
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+/*define the close button*/
+ 
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+/*define the close hover and focus effects*/
+ 
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+ 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+ 
+@media screen and (max-width: 300px) {
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    }
+}
+
+
+
+video{
+  width: 100%;
+}
+
+
+
+
+/* for map*/
+
+ /* Set the size of the div element that contains the map */
+ #map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 97%;  /* The width is the width of the web page */
+  
+}
+
+
+
+
+/* Hover tooltip*/
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: rgba(70, 219, 11, 0.925);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* For Business page*/
+
+
+
+
+.container12 {
+  height: 250px;
+  position: relative;
+
+  
+}
+
+.vertical-center12 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
